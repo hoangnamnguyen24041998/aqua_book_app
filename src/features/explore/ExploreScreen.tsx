@@ -5,7 +5,7 @@ import { MaxContentWidth, Spacing } from "@/constants/theme";
 import { ScreenSkeleton, useMockLoading } from "@/components/swimbook/Skeleton";
 import { useSwimBook } from "@/context/SwimBookContext";
 import { PoolMap } from "./components/PoolMap";
-import { PoolCard } from "../../../PoolCard";
+import { PoolCard } from "../../components/PoolCard";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export function ExploreScreen() {
